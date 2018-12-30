@@ -1,0 +1,588 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <!--Favicon-->
+        <link rel="shortcut icon" href="">    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--        <link rel="stylesheet" href="css/bootstrap-rtl.min.css">-->
+      
+       <!--Main Style-->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!--Media Queries-->
+        <link rel="stylesheet" href="css/media.css">
+        <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+    </head>
+    <body > <!--class="preload"-->
+       <!--Start Preloader Section-->
+<!--
+       <div class="screen">
+            <div class="loader">
+                <div class="spinner">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--End Preloader Section-->
+<content id="myContent">
+        <!--Start Main Section-->
+        <main class="">
+          <div class="background"></div>
+           <div class="container-fluid">
+            <!--Start Top Header-->
+            <header class="wow slideInDown" data-wow-delay="1s">
+                <div class="left-side float-left">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item dropdown">
+                            <a href="#">
+                                About Us <span><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                            <div class="drop-menu">
+                                <div>Link 1</div>
+                                <div>Link 2</div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="right-side text-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">اللغة العربية</a></li>
+                        <li class="list-inline-item"><a href="#" ><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" ><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" > <i class="fab fab fa-google"></i></a></li>
+                    </ul>
+                </div>
+            </header>
+            </div>
+            <!--End Top Header-->
+            <!--Start Navbar-->
+            <nav class="wow slideInDown">
+               <div class="container-fluid">
+                    <div class="fullscreen-menu">
+                        <div class="left-side text-left">
+                            <img src="imgs/logo-1.png" alt="">
+                        </div>
+                        <div class="center-side text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item dropdown">
+                                    <a href="#">
+                                        Services <span><i class="fas fa-chevron-down"></i></span>
+                                    </a>
+                                    <div class="drop-menu">
+                                        <div>Link 1</div>
+                                        <div>Link 2</div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item dropdown">
+                                    <a href="#">
+                                        Products <span><i class="fas fa-chevron-down"></i></span>
+                                    </a>
+                                    <div class="drop-menu">
+                                        <div>Link 1</div>
+                                        <div>Link 2</div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item dropdown">
+                                    <a href="#">
+                                        Media <span><i class="fas fa-chevron-down"></i></span>
+                                    </a>
+                                    <div class="drop-menu">
+                                        <div>Link 1</div>
+                                        <div>Link 2</div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="">Partners</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right-side text-right">
+                            <img src="imgs/logo-2.png" alt="">
+                            <img src="imgs/logo-3.png" alt="">
+                        </div>
+                    </div>
+                    <!--Mobile Menu-->
+                    <div class="mobile-menu">
+                        <div class="main-logo">
+                        <img src="imgs/logo-1.png" alt=""  style="width: 240px ">
+                        </div>
+
+<!--                        <div class="right-side">-->
+<!--                            <span>اللغة العربية</span>-->
+<!--                            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>-->
+<!--
+                        <div class="nav-icon" id="nav-icon" onmouseover="openNav()">
+                            <div></div>
+                        </div>
+-->
+<!--                        </div>-->
+                       <div class="right-side">
+                           <span>اللغة العربية</span>
+                           <span style="font-size:30px;cursor:pointer" id="mobile-btn">&#9776;</span>
+                       </div>
+                        
+                        
+                        <div id="myNav"  class="overlay">
+<!--                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+                            <div class="overlay-content">
+                               <div class="top-section">
+                                   <img src="imgs/logo-2.png" alt="">
+                                   <img src="imgs/logo-3.png" alt="">
+                                   <hr>
+                               </div>
+                                
+                              <div class="center-section">
+                                    <ul class="list">
+                                        <li><a href="#">Home</a></li>
+                                        <li class="list-inline-item dropdown" id="aboutUsClick">
+                                            <a href="#">
+                                            About Us <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="drop-menu" id="aboutUs">
+                                                <div>Link 1</div>
+                                                <div>Link 2</div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li class=" dropdown" id="servicesClick">
+                                            <a href="#">
+                                            Services <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="drop-menu" id="services">
+                                                <div>Link 1</div>
+                                                <div>Link 2</div>
+                                            </div>
+                                        </li>
+                                        <li class=" dropdown" id="productsClick">
+                                            <a href="#">
+                                            Products <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="drop-menu" id="products">
+                                                <div>Link 1</div>
+                                                <div>Link 2</div>
+                                            </div>
+                                        </li>
+                                        <li class=" dropdown" id="newsClick">
+                                            <a href="#">
+                                            News <span><i class="fas fa-chevron-down"></i></span>
+                                            </a>
+                                            <div class="drop-menu" id="news">
+                                                <div>Link 1</div>
+                                                <div>Link 2</div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Parteners</a></li>
+                                    </ul>
+                                    <hr>
+                              </div>
+                              <div class="bottom-section">
+                                 <div class="social-icons">
+                                    <i class=" circle-icon fab fa-facebook-f"></i>
+                                    <i class=" circle-icon fab fa-twitter"></i>
+                                    <i class=" circle-icon fab fa-google"></i>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+               </div>
+
+            </nav>
+            <!--End Navbar-->
+            <!--Start Carousel-->
+            <div class="slider">
+               <div class="container-fluid">
+                  <!--FullScreen Slider-->
+                   <div id="carouselExampleIndicators" class="carousel slide carousel-fade
+                   fullscreen-slider" data-ride="carousel" >
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="item1">
+                                <h1 class="wow fadeIn" data-wow-delay="1s">Prince Sultan Defense Studies And Research Center</h1>
+                                <p class="wow fadeIn" data-wow-delay="1.3s">Since 2008, the Prince Sultan Institute for Advanced Technology Research has been at King Saud University under the supervision of the Saudi Royal Air Force. At the initiative of His Royal Highness the Crown Prince and Minister of Defense, the Institute has become the Prince</p>
+                                <button class="wow fadeIn" data-wow-delay="1.5s">Read More</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item2">
+                                <h1>Prince Sultan Defense Studies And Research Center</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum neque praesentium possimus assumenda. Fugit perspiciatis reiciendis neque. Ipsum, labore delectus vero. Quidem inventore nam dolore, commodi sequi, rerum sit pariatur explicabo sed dolorum cupiditate, voluptatem reprehenderit ea ipsam animi, tempora.</p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item3">
+                                <h1>Prince Sultan Defense Studies And Research Center</h1>
+                                <p>Since 2008, the Prince Sultan Institute for Advanced Technology Research has been at King Saud University under the supervision of the Saudi Royal Air Force. At the initiative of His Royal Highness the Crown Prince and Minister of Defense, the Institute has become the Prince</p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/FullScreen Slider-->
+                
+                <!--Mobile Slider-->
+                <div class="mobile">
+                    <div class="row">
+                        <div class="col-sm-6 ">
+                           <div id="mobileCarousel" class="carousel slide carousel-fade
+                           mobile-slider" data-ride="carousel" >
+                            <ol class="carousel-indicators">
+                                <li data-target="#mobileCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#mobileCarousel" data-slide-to="1"></li>
+                                <li data-target="#mobileCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="item1">
+                                        <h1 class="wow fadeIn" data-wow-delay="1s">Prince Sultan Defense Studies And Research Center</h1>
+                                        <p class="wow fadeIn" data-wow-delay="1.3s">Since 2008, the Prince Sultan Institute for Advanced Technology Research has been at King Saud University under the supervision of the Saudi Royal Air Force. At the initiative of His Royal Highness the Crown Prince and Minister of Defense, the Institute has become the Prince</p>
+                                        <button class="wow fadeIn" data-wow-delay="1.5s">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="item2">
+                                        <h1>Prince Sultan Defense Studies And Research Center</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos totam suscipit iste eveniet quasi earum iure fuga quibusdam sequi cumque, enim voluptatum blanditiis, ea molestias. Voluptates quibusdam, provident rerum dolorem aut corporis velit non magni dolor voluptatem, quae molestias obcaecati.</p>
+                                        <button>Read More</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="item3">
+                                        <h1>Prince Sultan Defense Studies And Research Center</h1>
+                                        <p>Since 2008, the Prince Sultan Institute for Advanced Technology Research has been at King Saud University under the supervision of the Saudi Royal Air Force. At the initiative of His Royal Highness the Crown Prince and Minister of Defense, the Institute has become the Prince</p>
+                                        <button>Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                           <div class="image"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Mobile Slider-->
+               </div>
+
+            </div>
+            <!--End Carousel-->
+        </main>
+        <!--End Main Section-->
+        <!--Start About-Us Section-->
+        <section class="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="order-2 order-sm-2 order-md-1 order-lg-1 col-lg-6 col-md-6 col-sm-12">
+                        <img src="imgs/about-us-img.png" alt="" class="wow fadeInLeft">
+                    </div>
+                    <div class="order-1 order-sm-1 order-md-2 order-lg-2 col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-content">
+                            <h2 class="wow fadeIn" data-wow-delay="1s">About <span>PSDSARC</span>
+                            </h2>
+                            <p class="wow fadeIn" data-wow-delay="1.1s">The Prince Sultan Center for Defense Studies and Research is a center that aims to promote and support defense and security trends in Saudi Arabia by conducting and developing qualitative and technical research related to defense, security and strategy.</p>
+                            <h3 class="wow fadeIn" data-wow-delay="1.2s">Center Goals</h3>
+                            <ul>
+                                <li class="wow fadeIn" data-wow-delay="1.3s">
+                                    Conduct scientific and applied research related to the defense and security industries in the interests of Saudi Arabia
+                                </li>
+                                <li class="wow fadeIn" data-wow-delay="1.4s">
+                                    To carry out applied research to support technical capabilities and provide solutions. Conducting specialized scientific studies and consultations.
+                                </li>
+                                <li class="wow fadeIn" data-wow-delay="1.5s">
+                                    Contribute to the technical supervision of the technical transfer programs related to contracts for the purchase of equipment and weapons.
+                                </li>
+                            </ul>
+                            <button class="wow fadeIn" data-wow-delay="1.6s">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End About-Us Section-->
+        <!--Start Services Section-->
+        <section class="services">
+          <div class="background wow slideInRight"></div>
+           <div class="container">
+<!--             <div class="row">-->
+<!--                 <div class="col-lg-6 cen">-->
+                     <div class="title">
+                         <h2>our <br> <span>services</span></h2>
+                         <a href="#">See All Services</a>
+                     </div>
+<!--                 </div>-->
+<!--                 <div class="col-lg-6">-->
+                    <div class="block text-center">
+                        <div id="owl-one" class="owl-carousel owl-theme">
+                            <!--Item 1-->
+                            <div class="items item-1">
+                                <img src="imgs/services-1.png" alt="">
+                                <h2>innovation <br> radar silent</h2>
+                                <p>invention radars and the transmission of radiographic imaging technology and communications systems</p>
+                                <button>See More</button>
+                            </div>
+                            <!--Item 2-->
+                            <div class="items item-2">
+                                <img src="imgs/services-2.png" alt="">
+                                <h2>innovation <br> of vehicels</h2>
+                                <p>invention radars and the transmission of radiographic imaging technology and communications systems</p>
+                                <button>See More</button>
+                            </div>
+                            <!--Item 3-->
+                            <div class="items item-3">
+                                <img src="imgs/services-3.png" alt="">
+                                <h2>innovation <br> sensorsand cameras</h2>
+                                <p>invention radars and the transmission of radiographic imaging technology and communications systems</p>
+                                <button>See More</button>
+                            </div>
+                            <!--Item 4-->
+                            <div class="items item-4">
+                                <img src="imgs/services-2.png" alt="">
+                                <h2>innovation <br> of vehicels</h2>
+                                <p>invention radars and the transmission of radiographic imaging technology and communications systems</p>
+                                <button>See More</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                 </div>-->
+<!--             </div>-->
+           </div>
+        </section>
+        <!--End Services Section-->
+        <!--Start Products Section-->
+        <section class="products">
+           <div class="background wow slideInLeft"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title">
+                             <h2>our  <span>products</span></h2>
+                             <a href="#">See All Products</a>
+                         </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="block">
+                            <div id="owl-two" class="owl-carousel owl-theme">
+                                <!--Item 1-->
+                                <div class="items item-1">
+                                    <div class="card" style="">
+                                        <img class="card-img-top" src="imgs/products-1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nawrus</h5>
+                                            <p class="card-text">invention radars and the transmission of radiographic imaging technology and communications systems</p>
+                                            <a href="#" >See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Item 2-->
+                                <div class="items item-2">
+                                    <div class="card" style="">
+                                        <img class="card-img-top" src="imgs/products-2.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NMR noise-multi stic radar</h5>
+                                            <p class="card-text">invention radars and the transmission of radiographic imaging technology and communications systems.</p>
+                                            <a href="#" >See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Item 3-->
+                                <div class="items item-3">
+                                    <div class="card" style="">
+                                        <img class="card-img-top" src="imgs/products-3.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rasid</h5>
+                                            <p class="card-text">invention radars and the transmission of radiographic imaging technology and communications systems.</p>
+                                            <a href="#" >See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Item 4-->
+                                <div class="items item-4">
+                                    <div class="card" style="">
+                                        <img class="card-img-top" src="imgs/products-2.png" alt="Card image cap">
+                                         <div class="card-body">
+                                            <h5 class="card-title">NMR noise-multi stic radar</h5>
+                                            <p class="card-text">invention radars and the transmission of radiographic imaging technology and communications systems.</p>
+                                            <a href="#" >See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Products Section-->
+        <!--Start Parteners Section-->
+        <section class="parteners wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="title">
+                            <h2>our <br> <span>parteners</span></h2>
+                            <a href="#">See All Parteners</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="block">
+                            <div id="owl-three" class="owl-carousel owl-theme">
+                                <!--item 1-->
+                                <div class="item-1 items">
+                                    <img src="imgs/partners-1.png" alt="">
+                                </div>
+                                <!--item 2-->
+                                <div class="item-2 items">
+                                    <img src="imgs/partners-2.png" alt="">
+                                </div>
+                                <!--item 3-->
+                                <div class="item-3 items">
+                                    <img src="imgs/partners-3.png" alt="">
+                                </div>
+                                <!--item 4-->
+                                <div class="item-4 items">
+                                    <img src="imgs/partners-2.png" alt="">
+                                </div>
+                                <!--item 5-->
+                                <div class="item-5 items">
+                                    <img src="imgs/partners-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Parteners Section-->
+        <!--Start Map Section-->
+        <section class="map wow pulse">
+           <div class="container">
+               <ul class="info wow fadeIn" data-wow-delay="1s">
+                <li>
+                    <span><i class="fas fa-home"></i></span>
+                    <span>Adress: </span>
+                    <p>PSDSARC , King Saud University, Kingdom of Saudi Arabia, PO Box 800 Riyadh 11421</p>  
+                </li>
+                <li>
+                    <span><i class="fas fa-phone"></i></span>
+                    <span>Phone:  </span>
+                    <p>+966 11 4695130</p>
+                </li>
+
+                <li>
+                    <span><i class="fas fa-envelope"></i></span>
+                    <span>Email: </span>
+                    <p>info@psdsarc.gov.sa</p>
+                </li>
+            </ul>
+           </div>
+            
+        </section>
+        <!--End Map Section-->
+        <!--Start Footer Section-->
+        <footer>
+            
+                <div class="top-footer">
+                   <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="site-map wow fadeInDown">
+                                <h3>site map</h3>
+                                <ul class="list">
+                                    <li>Home</li>
+                                    <li>About Us</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                                <ul class="list">
+                                    <li>Services</li>
+                                    <li>Products</li>
+                                    <li>News</li>
+                                    <li>Gallery</li>
+                                    <li>Parteners</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="our-news wow fadeInDown" data-wow-delay=".5s">
+                                <h3>our news</h3>
+                                <div class="item-1 items">
+                                    <img src="imgs/footer-news-1.png"  alt="">
+                                    <span>Director of the Cooperation Office for the Defense Industries of Turkey , Mr. Adam Axoy, and during the visit .. [ <a href="">Read More</a> ]</span>
+                                </div>
+                                <div class="item-2 items">
+                                    <img src="imgs/footer-news-2.png" alt="">
+                                    <span>Director of the Cooperation Office for the Defense Industries of Turkey , Mr. Adam Axoy, and during the visit .. [ <a href="">Read More</a> ]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="follow-us wow fadeInDown" data-wow-delay="1s">
+                                <h3>Follow Us</h3>
+                                <h5>Newsletter</h5>
+                                <p>Follow us by subscribing through the form</p>
+                                <form action="">
+                                    <div class="input-group mb-3  ">
+                                        <input type="text"  class="form-control " placeholder="Your Email">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text"><i class="fas fa-location-arrow"></i></span>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="social-icons">
+                                    <i class=" circle-icon fab fa-facebook-f"></i>
+                                    <i class=" circle-icon fab fa-twitter"></i>
+                                    <i class=" circle-icon fab fa-google"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="bottom-footer text-left">
+                        All rights reserved to PSDSARC  |   Designed By ELRIYAD.COM
+                    </div>
+                </div>
+
+            
+        </footer>
+        <!--End Footer Section-->
+</content>
+
+        <!--Jquery Minified JS-->
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <!--Owl Carousel JS-->
+        <script src="js/owl.carousel.min.js"></script>
+        <!--Wow Js-->
+        <script src="js/wow.min.js"></script>
+        <!--Bootstrap Minified JS-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Main Script-->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
